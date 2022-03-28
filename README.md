@@ -16,8 +16,15 @@ import python_test_package
 python_test_package.extremely_useful_function()
 ```
 
-if installation succeeded you should get the following output:
+## Testing
+Testing uses [tox](https://tox.wiki/en/latest/), so you need to first install it:
 
-```python
-hello! I'm doing extremely useful stuff!
+```bash
+pip3 install tox
+```
+
+then you can run tests defined under the ```tests``` directory by issuing the command:
+
+```bash
+tox
 ```
