@@ -1,7 +1,7 @@
 # python-package-test-repo
 Python Package Test Repo to test pip installation from git
 
-## Instal from GIT
+## Instal from GitHub
 Use the following command to install from git:
 
 ```bash
