@@ -5,7 +5,7 @@ Python Package Test Repo to test pip installation from GitHub
 Use the following command to install from git:
 
 ```bash
-pip3 -v install git+https://github.com/albyst/python-package-test-repo
+pip3 install git+https://github.com/albyst/python-package-test-repo
 ```
 
 Then you can import and use the test package:
