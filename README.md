@@ -17,7 +17,7 @@ python_test_package.extremely_useful_function()
 ```
 
 ## Testing
-Testing uses [tox](https://tox.wiki/en/latest/), so you need to first install it:
+Testing uses [tox](https://tox.wiki/en/latest/), so you need to install it first:
 
 ```bash
 pip3 install tox
