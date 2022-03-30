@@ -8,6 +8,15 @@ Use the following command to install from git:
 pip3 install git+https://github.com/albyst/python-package-test-repo
 ```
 
+It is also possible to specify a “git ref” such as branch name, a commit hash or a tag name (more info can be found in [official documentation](https://pip.pypa.io/en/stable/topics/vcs-support/#vcs-support)):
+
+```bash
+MyProject @ git+https://git.example.com/MyProject.git@master
+MyProject @ git+https://git.example.com/MyProject.git@v1.0
+MyProject @ git+https://git.example.com/MyProject.git@da39a3ee5e6b4b0d3255bfef95601890afd80709
+MyProject @ git+https://git.example.com/MyProject.git@refs/pull/123/head
+```
+
 Then you can import and use the test package:
 
 ```python
